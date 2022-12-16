@@ -9,12 +9,12 @@ CUMA TEST DOANG
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏠 KEMBALI 🏠", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ SUPPORT CHANNEL ✨", url="https://t.me/StarkBots/7")],
         [
             InlineKeyboardButton("RATING", url="https://t.me/NekopoiSupport/9"),
             InlineKeyboardButton("DONASI", callback_data="about")
