@@ -10,6 +10,6 @@ async def start(bot, msg):
 	mention = user["mention"]
 	await bot.send_message(
 		msg.chat.id,
-		photo=open('photo_2022-12-12_02-11-46.jpg'),
+		photo=open('ForceSubscribeBot/photo_2022-12-12_02-11-46.jpg'),
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
