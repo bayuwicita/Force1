@@ -4,16 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
-
-Welcome to {}
-
-I can force your group's users to join a particular chat. 
-The chat can be a group or channel. It can be private or public.
-
-Use below buttons to learn more !
-
-By @StarkBots
+CUMA TEST DOANG
     """
 
     # Home Button
