@@ -3,8 +3,11 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = """
+    START = 
 
+
+
+    """
 CUMA TEST DOANG
     """
 
