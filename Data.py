@@ -7,6 +7,12 @@ class Data:
 CUMA TEST DOANG
     """
 
+await message.reply_photo(
+    photo=https://telegra.ph/file/ef7261e2a4bec533ec771.jpg,
+    caption=START,
+    reply_markup=buttons
+)
+
     # Home Button
     home_buttons = [
         [InlineKeyboardButton(text="🏠 KEMBALI 🏠", callback_data="home")],
