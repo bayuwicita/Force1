@@ -3,15 +3,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = 
-
-await message.reply_photo(
-    photo=https://telegra.ph/file/ef7261e2a4bec533ec771.jpg,
-    caption=START,
-    reply_markup=buttons
-)
-
-    """
+    START = """
 
 CUMA TEST DOANG
     """
