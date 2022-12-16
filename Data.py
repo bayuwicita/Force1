@@ -1,6 +1,5 @@
 import pyrogram
 from pyrogram.types import InlineKeyboardButton
-app = pyrogram.Client("me"]
 
 class Data:
     # Start Message
