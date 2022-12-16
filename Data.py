@@ -1,10 +1,11 @@
+import pyrogram
 from pyrogram.types import InlineKeyboardButton
-
+app = pyrogram.Client("me"]
 
 class Data:
     # Start Message
     START = """
-await app.send_photo("me", "https://telegra.ph/file/ef7261e2a4bec533ec771.jpg" caption="NekoPoi Logo")
+await app.send_photo("me", "https://telegra.ph/file/ef7261e2a4bec533ec771.jpg")
 
 CUMA TEST DOANG
     """
