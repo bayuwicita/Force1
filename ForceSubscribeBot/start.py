@@ -10,6 +10,6 @@ async def start(bot, msg):
 	mention = user["mention"]
 	await bot.send_message(
 		msg.chat.id,
-		photo=('https://telegra.ph/file/ef7261e2a4bec533ec771.jpg'),
+		photo=open('https://telegra.ph/file/ef7261e2a4bec533ec771.jpg'),
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
