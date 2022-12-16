@@ -19,7 +19,7 @@ else:
     # Fill the Values
     API_ID = 24515526
     API_HASH = "482182f8ab9dd82fb9144a0f68eeb817"
-    BOT_TOKEN = "5871159415:AAEmdLPpLY_8maR5xPCMCR3GIVg9-tFBqVs"
+    BOT_TOKEN = "5871159415:AAEbREYLyrDCNDhikWjHaKdSoPj4pAsQAEQ"
     DATABASE_URL = "postgres://wlsokvlw:iXaEM2r2BjhK5GcOXGm2qJWotsCjChR0@floppy.db.elephantsql.com/wlsokvlw"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = "nekopoisupport"
