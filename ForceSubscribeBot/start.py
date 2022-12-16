@@ -12,8 +12,5 @@ async def start(bot, msg):
 		msg.chat.id,
 		Data.START.format(msg.from_user.mention, mention),
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
-	await bot.reply_photo(
-    		photo= https://telegra.ph/file/ef7261e2a4bec533ec771.jpg,
-    		caption=START,
-    		reply_markup=buttons
+	await bot.reply_photo('https://telegra.ph/file/ef7261e2a4bec533ec771.jpg')
 	)
