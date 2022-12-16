@@ -19,7 +19,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"**Agar dapat menggunakan Nekopoi Bot, anda diharuskan bergabung di Channel NekoPoi terlebih dahulu./n/nJika sudah silahkan klik /start**",
+                    f"**Agar dapat menggunakan Nekopoi Bot anda diharuskan bergabung di Channel NekoPoi terlebih dahulu.\n\nJika sudah silahkan klik /start**",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("✨ Join Channel ✨", url=link)]
