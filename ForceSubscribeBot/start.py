@@ -8,6 +8,6 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 async def start(client: Client, message: Message):
 	await message.reply_photo(
 		message.chat.id,
-		photo = "https://telegra.ph/file/591df41289c406ed4f248.jpg" + Data.START,
+		"https://telegra.ph/file/591df41289c406ed4f248.jpg",
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
