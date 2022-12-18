@@ -1,5 +1,5 @@
 from Data import Data
-from pyrogram import Client, filters
+from pyrogram import Client, filters, message
 from pyrogram.types import InlineKeyboardMarkup
 
 
@@ -13,3 +13,5 @@ async def start(bot, msg):
 		Data.START.format(msg.from_user.mention, mention),
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
+async def start(client: Client, message: Message):
+    await message.reply_photo("https://telegra.ph/file/ef7261e2a4bec533ec771.jpg"))
