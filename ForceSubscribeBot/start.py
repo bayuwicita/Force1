@@ -1,16 +1,9 @@
 from Data import Data
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardMarkup, Message
 
 
 # Start Message
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
-async def start(bot, msg):
-	user = await bot.get_me()
-	mention = user["mention"]
-	await bot.send_message(
-		msg.chat.id,
-		Data.START.format(msg.from_user.mention, mention, photo),
-		reply_markup=InlineKeyboardMarkup(Data.buttons)
-	)
-
+async def start(bot, msg, client : Client, message : Message):
+	await message.reply_photo((START))
