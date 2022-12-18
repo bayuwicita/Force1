@@ -38,9 +38,9 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
          media="https://telegra.ph/file/591df41289c406ed4f248.jpg",
          caption="TEST"
          )
-          await callback.edit_message_media(
-          media=kode_qr,
-          reply_markup=InlineKeyboardMarkup(Data.home_buttons)
+         await bot.edit_message_media(
+         media=kode_qr,
+         reply_markup=InlineKeyboardMarkup(Data.home_buttons)
          )
     elif query == "help":
         chat_id = callback_query.from_user.id
