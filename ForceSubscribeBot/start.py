@@ -1,5 +1,5 @@
 from Data import Data
-from pyrogram import Client, filters, Message
+from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
 
 
@@ -15,7 +15,5 @@ async def start(bot, msg):
 	)
 	await bot.send_photo(
 		photo="https://telegra.ph/file/ef7261e2a4bec533ec771.jpg",
-		caption=Halo
+		caption=START
 	)
-async def start(client: Client, message: Message):
-    await message.reply_photo("https://telegra.ph/file/ef7261e2a4bec533ec771.jpg")
