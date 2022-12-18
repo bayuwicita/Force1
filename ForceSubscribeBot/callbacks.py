@@ -30,11 +30,11 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             media="https://telegra.ph/file/d91ed6b5ee1b3b516a070.jpg",
             caption="**Selamat datang di NekoPoi Bot🐈 \n\nFitur Bot:** \n➥ __No Iklan.__\n➥ __Akses Sangat Mudah.__\n➥ __Bebas Streaming & Download.__\n\n**Enjoy !**"
             )
-                await bot.edit_message_media(
-                chat_id=chat_id,
-                message_id=message_id,
-                media=logo_start,
-                reply_markup=InlineKeyboardMarkup(Data.buttons),
+            await bot.edit_message_media(
+            chat_id=chat_id,
+            message_id=message_id,
+            media=logo_start,
+            reply_markup=InlineKeyboardMarkup(Data.buttons),
             )
             
     elif query == 'donasi':
