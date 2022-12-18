@@ -28,13 +28,7 @@ CUMA TEST DOANG
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**DONASI** 
 
-Channel this Bot : [Click Here](https://t.me/NekoPoiSupport)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @DreamFound
+Jika anda menyukai Bot kami dan ingin memberikan donasi serta dukungan kepada kami bisa dengan cara scan gambar kode QRIS diatas lalu input nilai yang ingin ditransfer.
     """
