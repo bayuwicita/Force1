@@ -8,6 +8,5 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 async def donasi(client: Client, message: Message):
 	await message.reply_photo(
 		"https://telegra.ph/file/591df41289c406ed4f248.jpg",
-		caption=**Jika anda menyukai Bot kami dan ingin memberikan donasi serta dukungan kepada kami bisa dengan cara scan gambar kode QRIS diatas lalu input nilai yang ingin ditransfer.**",
-		reply_markup=InlineKeyboardMarkup(Data.buttons)
+		caption="**Jika anda menyukai Bot kami dan ingin memberikan donasi serta dukungan kepada kami bisa dengan cara scan gambar kode QRIS diatas lalu input nilai yang ingin ditransfer.**",
 	)
