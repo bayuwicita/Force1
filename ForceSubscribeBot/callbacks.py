@@ -27,7 +27,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             chat_id = callback_query.from_user.id
             message_id = callback_query.message.message_id
             logo_start = InputMediaPhoto(
-            media="https://telegra.ph/file/d91ed6b5ee1b3b516a070.jpg"
+            media="https://telegra.ph/file/d91ed6b5ee1b3b516a070.jpg",
             caption="**Selamat datang di NekoPoi Bot🐈 \n\nFitur Bot:** \n➥ __No Iklan.__\n➥ __Akses Sangat Mudah.__\n➥ __Bebas Streaming & Download.__\n\n**Enjoy !**"
             )
                 await bot.edit_message_media(
