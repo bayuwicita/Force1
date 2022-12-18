@@ -10,5 +10,4 @@ async def start(bot, msg):
 		"msg.chat.id",
 		"https://telegra.ph/file/591df41289c406ed4f248.jpg", 
 		caption="CaptionNEW"
-		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
