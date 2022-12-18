@@ -14,8 +14,7 @@ async def start(bot, msg):
 @Client.on_message(filters.command("goblok"))
 async def goblok(client: Client, message: Message):
 	await message.reply_photo(
-		message.chat.id,
-		photo="https://telegra.ph/file/591df41289c406ed4f248.jpg",
+		"https://telegra.ph/file/591df41289c406ed4f248.jpg",
 		caption="IniCaption",
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
