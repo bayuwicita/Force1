@@ -26,10 +26,14 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         if query == 'home':
             chat_id = callback_query.from_user.id
             message_id = callback_query.message.message_id
-            await bot.edit_message_text(
+            logo_start = InputMediaPhoto(
+            media="https://telegra.ph/file/d91ed6b5ee1b3b516a070.jpg"
+            caption=f"**Halo : {message.from_user.mention} \nSelamat datang di Anime Bot. \n\nFitur Bot:** \n➥ __No Iklan.__\n➥ __Akses Sangat Mudah.__\n➥ __Bebas Streaming & Download.__\n\n**Enjoy !**"
+            )
+                await bot.edit_message_media(
                 chat_id=chat_id,
                 message_id=message_id,
-                text="**Selamat datang di Anime Bot. \n\nFitur Bot:** \n➥ __No Iklan.__\n➥ __Akses Sangat Mudah.__\n➥ __Bebas Streaming & Download.__\n\n**Enjoy !**",
+                media=logo_start,
                 reply_markup=InlineKeyboardMarkup(Data.buttons),
             )
             
