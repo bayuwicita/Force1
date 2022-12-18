@@ -34,7 +34,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             )
     elif query == 'donasi':
 
-	await callback.edit_message_media(
+	await bot.edit_message_media(
     		media="https://telegra.ph/file/591df41289c406ed4f248.jpg",
     		caption="TEST", 
 		reply_markup=InlineKeyboardMarkup(Data.home_buttons),
