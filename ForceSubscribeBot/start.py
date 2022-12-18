@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 # Start Message
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
 async def start(client: Client, message: Message):
-	await bot.sendMedia(
+	await message.sendMedia(
 		message.chat.id,
 		"https://telegra.ph/file/591df41289c406ed4f248.jpg" + Data.START,
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
