@@ -1,4 +1,5 @@
 import pyrogram
+from os import getenv
 from pyrogram.types import InlineKeyboardButton
 
 class Data:
@@ -8,6 +9,10 @@ class Data:
     CUMA TES AJA
         """
     
+    START_IMG_URL = getenv(
+        "START_IMG_URL",
+        "image/donasi.jpg"
+    )
     
     # Home Button
     home_buttons = [
