@@ -32,7 +32,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 text="**Selamat datang di Anime Bot. \n\nFitur Bot:** \n➥ __No Iklan.__\n➥ __Akses Sangat Mudah.__\n➥ __Bebas Streaming & Download.__\n\n**Enjoy !**",
                 reply_markup=InlineKeyboardMarkup(Data.buttons),
             )
-elif query == 'donasi:
+elif query == 'donasi':
     		kode_qr = InputMediaPhoto(
         	media="https://telegra.ph/file/591df41289c406ed4f248.jpg",
         	caption="TEST"
