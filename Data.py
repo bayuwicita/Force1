@@ -3,8 +3,10 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = [
-        "https://telegra.ph/file/ef7261e2a4bec533ec771.jpg"]
+    START = """
+    
+    CUMA TES AJA
+        """
     
     
     # Home Button
