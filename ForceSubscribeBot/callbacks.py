@@ -37,7 +37,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         message_id = callback_query.message.message_id
         await bot.edit_message_text(
 		"https://telegra.ph/file/591df41289c406ed4f248.jpg",
-		caption="DONASI",
+		text="DONASI",
       		 disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
