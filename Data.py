@@ -6,7 +6,7 @@ class Data:
    
     # Home Button
     start_buttons = [
-        [InlineKeyboardButton(text="🏠 KEMBALI 🏠", /start")],
+        [InlineKeyboardButton(text="🏠 KEMBALI 🏠", "/start")],
     ]
 
     # Rest Buttons
@@ -14,9 +14,9 @@ class Data:
         [InlineKeyboardButton("✨ SUPPORT CHANNEL ✨", url="https://t.me/NekoPoiSupport")],
         [
             InlineKeyboardButton("RATING", url="https://t.me/NekopoiSupport/9"),
-            InlineKeyboardButton("DONASI", callback_data="donasi")
+            InlineKeyboardButton("DONASI", "/donasi")
         ],
-        [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", callback_data="lapor")]
+        [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", "/lapor")]
     ]
 
     # Help Message
