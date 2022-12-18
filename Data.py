@@ -4,22 +4,18 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
    
-    # Home Button
-    start_buttons = [
-        [InlineKeyboardButton(text="🏠 KEMBALI 🏠", url="/start")],
+   # Home Button
+    home_buttons = [
+        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
     ]
-
+      
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("✨ SUPPORT CHANNEL ✨", url="https://t.me/NekoPoiSupport")],
         [
             InlineKeyboardButton("RATING", url="https://t.me/NekopoiSupport/9"),
-            InlineKeyboardButton("DONASI", url="/donasi")
+            InlineKeyboardButton("DONASI", url="https://t.me/NekopoiSupport")
         ],
-        [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", url="/lapor")]
+        [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", url="https://t.me/NekopoiSupport")]
     ]
 
-    # Help Message
-    LAPOR = """
-**Jika ada kendala atau ingin melaporkan link rusak bisa chat admin di [Channel NekoPoi](https://t.me/NekoPoiSupport).**
-    """
