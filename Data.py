@@ -6,7 +6,9 @@ class Data:
     START = """
 CUMA TEST DOANG
     """
-
+["https://telegra.ph/file/ef7261e2a4bec533ec771.jpg"]
+    
+    
     # Home Button
     home_buttons = [
         [InlineKeyboardButton(text="🏠 KEMBALI 🏠", callback_data="home")],
