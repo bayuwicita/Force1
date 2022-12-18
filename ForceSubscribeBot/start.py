@@ -1,6 +1,6 @@
 from Data import Data
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardMarkup, Message
 
 
 # Start Message
