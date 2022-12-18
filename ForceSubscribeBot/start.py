@@ -15,6 +15,6 @@ async def start(bot, msg):
 	)
 	await bot.send_photo(
 		photo="https://telegra.ph/file/ef7261e2a4bec533ec771.jpg"
-		caption=START,
+		caption=Halo,
 		reply_markup=buttons
 	)
