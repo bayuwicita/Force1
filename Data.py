@@ -4,6 +4,10 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
    
+   START = """
+   APAAN COBA
+   """
+   
     # Home Button
     home_buttons = [
         [InlineKeyboardButton(text="🏠 KEMBALI 🏠", callback_data="home")],
