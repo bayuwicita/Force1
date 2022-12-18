@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 # Start Message
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
-async def start(client: Client, message: Message):
+async def start(client: Client, message: Message, bot):
 	user = await bot.get_me()
 	mention = user["mention"]
 	await message.reply_photo(
