@@ -35,13 +35,13 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
     elif query == "donasi":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.message_id
-        await bot.edit_message_text(
-		chat_id=chat_id,
-           	message_id=message_id,
-		text="DONASI",
-      		disable_web_page_preview=True,
-            	reply_markup=InlineKeyboardMarkup(Data.home_buttons),
-        )
+	kode_qr = InputMediaPhoto(
+    	media="https://telegra.ph/file/591df41289c406ed4f248.jpg",
+    	caption="TEST"
+	)
+		await callback.edit_message_media(
+    		media=kode_qr, reply_markup=InlineKeyboardMarkup(Data.home_buttons)
+)
     elif query == "help":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.message_id
