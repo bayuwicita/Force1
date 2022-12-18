@@ -35,7 +35,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
     elif query == "donasi":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.message_id
-        await message.reply_photo(
+        await bot.edit_message_text(
 		"https://telegra.ph/file/591df41289c406ed4f248.jpg",
 		caption="DONASI",
       		 disable_web_page_preview=True,
