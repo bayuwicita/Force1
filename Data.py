@@ -6,7 +6,7 @@ class Data:
    
    # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="KEMBALI", callback_data="home")],
     ]
       
     # Rest Buttons
