@@ -10,5 +10,5 @@ async def start(bot, msg):
 	mention = user["mention"]
 	await bot.send_photo(
 		msg.chat.id,
-		photo = "https://telegra.ph/file/ef7261e2a4bec533ec771.jpg"
+		photo = "https://telegra.ph/file/591df41289c406ed4f248.jpg"
 	)
