@@ -1,6 +1,6 @@
 from Data import Data
 from pyrogram import Client
-from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, Message
+from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, Message, InputMediaPhoto
 from pyrogram.errors.exceptions import UserNotParticipant
 from ForceSubscribeBot.database.chats_sql import (
     get_action,
