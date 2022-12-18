@@ -8,8 +8,8 @@ from pyrogram.types import InlineKeyboardMarkup
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user["mention"]
-	await bot.send_message(
+	await bot.send_photo(
 		msg.chat.id,
-		Data.START.format(msg.from_user.mention, mention),
+		"https://telegra.ph/file/591df41289c406ed4f248.jpg" + Data.START.format(msg.from_user.mention, mention),
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
