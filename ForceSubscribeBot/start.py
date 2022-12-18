@@ -14,7 +14,7 @@ async def start(bot, msg):
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
 	await bot.send_photo(
-		photo="https://telegra.ph/file/ef7261e2a4bec533ec771.jpg"
-		caption=Halo,
+		photo="https://telegra.ph/file/ef7261e2a4bec533ec771.jpg",
+		caption=Halo
 		reply_markup=buttons
 	)
