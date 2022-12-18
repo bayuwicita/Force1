@@ -29,7 +29,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await bot.edit_message_text(
                 chat_id=chat_id,
                 message_id=message_id,
-                text=f"**Halo : {message.from_user.mention} \nSelamat datang di NekoPoi Bot. \n\nFitur Bot:** \n➥ __No Iklan.__\n➥ __Akses Sangat Mudah.__\n➥ __Bebas Streaming & Download.__\n\n**Enjoy !**",
+                text="**Halo : {message.from_user.mention} \nSelamat datang di NekoPoi Bot. \n\nFitur Bot:** \n➥ __No Iklan.__\n➥ __Akses Sangat Mudah.__\n➥ __Bebas Streaming & Download.__\n\n**Enjoy !**",
                 reply_markup=InlineKeyboardMarkup(Data.buttons),
             )
     elif query == "donasi":
