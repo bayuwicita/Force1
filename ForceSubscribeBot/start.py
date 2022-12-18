@@ -11,3 +11,8 @@ async def start(bot, msg):
 		Data.START,
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
+@bot.on_message(filters.command("drink"))
+async def drink(client: Client, message: Message):
+	await message.reply_photo(
+		https://telegra.ph/file/591df41289c406ed4f248.jpg) + Data.START,
+		reply_markup=InlineKeyboardMarkup(Data.buttons)
