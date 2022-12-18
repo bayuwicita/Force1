@@ -39,6 +39,8 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
          caption="TEST"
          )
          await bot.edit_message_media(
+         chat_id=chat_id,
+         message_id=message_id,
          media=kode_qr,
          reply_markup=InlineKeyboardMarkup(Data.home_buttons)
          )
