@@ -14,7 +14,7 @@ class Data:
         [InlineKeyboardButton("✨ SUPPORT CHANNEL ✨", url="https://t.me/NekoPoiSupport")],
         [
             InlineKeyboardButton("RATING", url="https://t.me/NekopoiSupport/9"),
-            InlineKeyboardButton("DONASI", "command:/donasi")
+            InlineKeyboardButton("DONASI", callback_data="donasi")
         ],
         [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", url="https://t.me/NekopoiSupport")]
     ]
