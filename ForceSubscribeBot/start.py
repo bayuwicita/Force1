@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 # Start Message
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
-async def start(bot, message):
+async def start(bot, msg):
 	await bot.send_message(
 		msg.chat.id,
 		Data.START,
