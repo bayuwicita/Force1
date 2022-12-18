@@ -16,10 +16,10 @@ class Data:
             InlineKeyboardButton("RATING", url="https://t.me/NekopoiSupport/9"),
             InlineKeyboardButton("DONASI", callback_data="donasi")
         ],
-        [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", url="https://t.me/NekoPoiSupport")]
+        [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", callback_data="lapor")]
     ]
 
     # Help Message
-    HELP = """
+    LAPOR = """
 **Jika ada kendala atau ingin melaporkan link rusak bisa chat admin di [Channel NekoPoi](https://t.me/NekoPoiSupport).**
     """
