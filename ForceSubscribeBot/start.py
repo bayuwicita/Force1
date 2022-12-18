@@ -4,17 +4,14 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 
 # Start Message
-@Client.on_message(filters.private & filters.incoming & filters.command("start"))
-async def start(bot, msg):
-	await bot.send_message(
-		msg.chat.id,
-		Data.START,
-		reply_markup=InlineKeyboardMarkup(Data.buttons)
-	)
-@Client.on_message(filters.command("goblok"))
-async def goblok(client: Client, message: Message):
+@Client.on_message(filters.command("start"))
+async def start(client: Client, message: Message):
 	await message.reply_photo(
-		"https://telegra.ph/file/591df41289c406ed4f248.jpg",
-		caption="IniCaption",
+		"https://telegra.ph/file/ef7261e2a4bec533ec771.jpg",
+		caption=
+		"**Halo : GatauCaraTag \n
+		Selamat datang di ... \n\n
+		Fitur Bot:*** \n
+		➥ __No Iklan.__\n➥ __Akses Sangat Mudah.__\n➥ __Bebas Streaming & Download.__\n\n**Enjoy !**",
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
