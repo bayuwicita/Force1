@@ -36,12 +36,12 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.message_id
         await bot.edit_message_text(
+		chat_id=chat_id,
+           	message_id=message_id,
 		"https://telegra.ph/file/591df41289c406ed4f248.jpg",
 		text="DONASI",
-		chat_id=chat_id,
-            message_id=message_id,
-      		 disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.home_buttons),
+      		disable_web_page_preview=True,
+            	reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
     elif query == "help":
         chat_id = callback_query.from_user.id
