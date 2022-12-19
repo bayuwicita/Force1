@@ -16,6 +16,6 @@ class Data:
             InlineKeyboardButton("RATING", url="https://t.me/NekopoiSupport/9"),
             InlineKeyboardButton("DONASI", callback_data="donasi")
         ],
-        [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", url="https://t.me/NekopoiSupport")]
+        [InlineKeyboardButton("❗ LAPOR LINK RUSAK ❗", callback_data="lapor")]
     ]
 
