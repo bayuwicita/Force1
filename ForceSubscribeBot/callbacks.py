@@ -42,7 +42,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
          message_id = callback_query.message.message_id
          kode_qr = InputMediaPhoto(
          media="https://telegra.ph/file/e30beb5698d619b87218a.jpg",
-         caption="**DONASI SEIKHLASNYA\n\nJika anda menyukai Bot kami dan ingin memberikan donasi serta dukungan kepada kami bisa dengan cara scan gambar kode QRIS diatas lalu input nilai yang ingin ditransfer.**"
+         caption="**DONASI SEIKHLASNYA💸**\n\n__Jika anda menyukai Bot kami dan ingin memberikan donasi serta dukungan kepada kami bisa dengan cara scan gambar kode QRIS diatas lalu input nilai yang ingin ditransfer.__"
          )
          await bot.edit_message_media(
          chat_id=chat_id,
